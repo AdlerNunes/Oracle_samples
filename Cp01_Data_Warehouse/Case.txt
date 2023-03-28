@@ -1,0 +1,20 @@
+A empresa METAIS S/A opera no mercado de produção de bovinos.
+A Empresa, possui 3 tipos de PEÇAS produzidas: amortecedor criado na cidade de Campinas, amortecedor 
+e baterias em Bragança Paulista; e Baterias e Molas na cidade de Vitória da Conquista (Bahia) 
+Existe um Sistema de Gestão que controla a produção para a unidade do estado de SP e outro para a 
+unidade da Bahia. Peças são exportadas utilizando o Porto de Santos e de Salvador.
+A diretoria necessita da criação de um DW que será liberado para o sistema de visualização de dashboard 
+final e também para usuários externos...
+Não Existe uma diferença significativa nos modelos de dados de ambas as origens, não sendo, portanto, 
+necessário normaliza-lo antes das extrações das informações. Porém pensando em performance a empresa 
+opta por um repositório central das informações. A empresa conta ainda com a disponibilidade de dois Storage
+e pretende economizar no processo de qualidade dos dados, pelo menos nesse princípio de operação.
+A Partir dos Requisitos, os diretores tem como principal objetivo com o DW:
+
+1- Apresentar o volume em arrobas comercializado por peça e por cidade.
+
+2- Existe a necessidade também do custo da produção por peça, que varia pela cidade que a peça foi
+produzida.
+
+3- Por fim a análise dos valores exportados sabendo que incidem taxas diferenciadas para os locais onde 
+foram produzidos, tipos das peças e Porto utilizado para a operação de exportação.

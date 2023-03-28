@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3A59937-FD70-444E-B684-927A4C6ABACE" name="tb_custo">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:01:48 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D6E5A6B1-E8CB-34F7-B8A1-5CC42E32697C">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:02:05 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PRODUTO" id="C431AE98-6894-A16A-D7C0-984886BC3FCA">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:02:21 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTO_PRODUTO" id="CEC00A47-7B23-9BDB-161A-7CA98632504B">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:03:02 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_PRODUTO" id="212991FE-D831-6F7A-02C7-06CB729C8142">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:03:28 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4072B48-D859-0E1B-08AA-E7BE4C3A15C3" name="tb_custo_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:02:05 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E5A6B1-E8CB-34F7-B8A1-5CC42E32697C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

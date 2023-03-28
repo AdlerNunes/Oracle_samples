@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14E6ED7D-50B4-3112-681D-29F0205DD433" name="tb_regiao">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 17:58:43 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5A881F81-104C-CF63-7D8F-3AE967449A42">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:01:29 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_REGIAO" id="C33427C1-F201-71AC-DBAB-03C84C91DC32">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:01:29 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAXA_REGIAO" id="8683AC3F-7582-B4C4-6A6A-21ECD91D0DBB">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:01:29 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F15DE070-27DD-D416-058B-93AB4491B372" name="tb_regiao_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-28 18:01:29 UTC</createdTime>
+<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A881F81-104C-CF63-7D8F-3AE967449A42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
