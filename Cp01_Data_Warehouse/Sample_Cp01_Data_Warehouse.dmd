@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sample_Cp01_Data_Warehouse" id="CB7B008C-C886-0DC6-228A-3AB4D94D381A" version="3.5">
-<createdBy>adler</createdBy>
-<createdTime>2023-03-28 17:54:07 UTC</createdTime>
-<ownerDesignName>Sample_Cp01_Data_Warehouse</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>CB7B008C-C886-0DC6-228A-3AB4D94D381A</designId>
-</OSDM_Design>
