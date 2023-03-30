@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="724B119E-075E-5512-32B4-2D68C36A6A48" name="tb_data">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:12:33 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="68D20698-2604-C98A-FD56-581AB72EFDE5">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:19 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="FB088C83-AB8F-B0BC-604C-39B42E0973FF">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:19 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11689326-A3BB-43BF-46D2-1DC7BFB173D3" name="tb_data_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:19 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D20698-2604-C98A-FD56-581AB72EFDE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

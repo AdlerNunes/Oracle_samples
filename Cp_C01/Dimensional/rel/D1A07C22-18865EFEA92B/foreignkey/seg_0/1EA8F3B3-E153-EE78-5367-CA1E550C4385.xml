@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EA8F3B3-E153-EE78-5367-CA1E550C4385" containerWithKeyObject="83BBEA63-CBD0-CF36-26CE-7965F56B66B3" localFKIndex="8E27CE64-FC4C-BF55-1CE5-B1E7CE743B12" name="tb_fato_exportacao_tb_peca_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:47 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<referredTableLongName>tb_peca</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A243495-2D3B-A804-520F-F8179A3A3667</referredTableID>
+<keyObject>0C12C49F-8FC4-CFEE-DAD0-778DBD050AB5</keyObject>
+<referredKeyID>0C12C49F-8FC4-CFEE-DAD0-778DBD050AB5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

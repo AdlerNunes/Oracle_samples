@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94DCC6B9-115B-F563-2034-E27DD102F6ED" containerWithKeyObject="ECFBB11F-08FE-5703-0C4A-90D86319B491" localFKIndex="C3235283-C9D8-84D5-D971-CAB07525CA16" name="tb_fato_volume_tb_cidade_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:18 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<referredTableLongName>tb_cidade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>918D9444-E052-FCB8-D9EB-419109218CE0</referredTableID>
+<keyObject>1D8AACFE-38AD-F209-C26F-C2790B5FF007</keyObject>
+<referredKeyID>1D8AACFE-38AD-F209-C26F-C2790B5FF007</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

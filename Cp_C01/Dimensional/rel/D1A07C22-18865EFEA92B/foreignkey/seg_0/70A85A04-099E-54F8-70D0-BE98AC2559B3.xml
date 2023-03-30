@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="70A85A04-099E-54F8-70D0-BE98AC2559B3" containerWithKeyObject="83BBEA63-CBD0-CF36-26CE-7965F56B66B3" localFKIndex="6476A298-8A3C-BCC2-8CF0-A7B7ED43CB20" name="tb_fato_exportacao_tb_porto_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:16:05 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<referredTableLongName>tb_porto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C3A943D-82D2-83FE-136C-E178073953DC</referredTableID>
+<keyObject>BE5985DD-0995-8E18-8739-609F9DB8FC46</keyObject>
+<referredKeyID>BE5985DD-0995-8E18-8739-609F9DB8FC46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="048FCD0C-E980-D730-F23E-0CCCEB6738B2" name="tb_fato_custo">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:09:48 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A2BF9ACD-9FE4-CC79-AB2D-EB3DEE42AE42">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:10:33 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CIDADE" id="EC9D3577-EAEF-4617-9803-95E659129AAF">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:27 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="009E788D-27F2-B474-0291-903CACBDE8EA" referredColumn="210CF64A-428E-378E-2FCB-46656B456642"/>
+</associations>
+</Column>
+<Column name="ID_PECA" id="C111FBE1-DFA6-766F-616C-7391214E8999">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:32 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F42CB91-9291-514A-0E26-5D09F7380A48" referredColumn="730844DE-8CE2-FA2F-89FC-631384F023FC"/>
+</associations>
+</Column>
+<Column name="ID_DATA" id="21B168FD-62D4-37F9-DBA0-4511C89B322A">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:46 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A1CDAE-0C63-C5F3-275A-368C3296346D" referredColumn="68D20698-2604-C98A-FD56-581AB72EFDE5"/>
+</associations>
+</Column>
+<Column name="VL_CUSTO" id="4D94CF9B-46B9-9DF9-D6F1-6FEABAEB6837">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:10:33 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5D12348-2E4B-4775-593C-A53DC433C6F9" name="tb_fato_custo_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:10:33 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BF9ACD-9FE4-CC79-AB2D-EB3DEE42AE42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B08EFF43-A4D0-3EDB-E542-086E90A93771" name="tb_fato_custo_tb_cidade_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:27 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9D3577-EAEF-4617-9803-95E659129AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="507D7F6B-4412-48BB-0823-9B23B89A1CF2" name="tb_fato_custo_tb_peca_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:32 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C111FBE1-DFA6-766F-616C-7391214E8999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41FD770D-099E-F741-0724-7448CB4428AA" name="tb_fato_custo_tb_data_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:14:46 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B168FD-62D4-37F9-DBA0-4511C89B322A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

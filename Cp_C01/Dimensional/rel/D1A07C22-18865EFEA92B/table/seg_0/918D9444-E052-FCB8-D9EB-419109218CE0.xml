@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="918D9444-E052-FCB8-D9EB-419109218CE0" name="tb_cidade">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:54 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="210CF64A-428E-378E-2FCB-46656B456642">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:12:32 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CIDADE" id="25326129-530C-E120-875A-6A88C84A679D">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:12:32 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ESTADO" id="7D7FEB23-34F6-2A29-7A43-C68E089FFD24">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:12:32 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D8AACFE-38AD-F209-C26F-C2790B5FF007" name="tb_cidade_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:12:32 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210CF64A-428E-378E-2FCB-46656B456642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

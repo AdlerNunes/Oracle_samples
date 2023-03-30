@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C3A943D-82D2-83FE-136C-E178073953DC" name="tb_porto">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:20 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8C234301-B5C2-8A26-0C46-3E4FF81F6B9C">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:56 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PORTO" id="BF88CE6F-9E5E-AA73-F956-0B2DE7011178">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:56 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE5985DD-0995-8E18-8739-609F9DB8FC46" name="tb_porto_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:13:56 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C234301-B5C2-8A26-0C46-3E4FF81F6B9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

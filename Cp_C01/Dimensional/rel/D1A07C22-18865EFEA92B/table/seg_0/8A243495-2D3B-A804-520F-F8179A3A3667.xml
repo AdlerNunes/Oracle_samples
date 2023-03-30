@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A243495-2D3B-A804-520F-F8179A3A3667" name="tb_peca">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:19 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="730844DE-8CE2-FA2F-89FC-631384F023FC">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:51 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PECA" id="D7BE962B-D991-2794-95DE-BE0A21CA843F">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:51 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C12C49F-8FC4-CFEE-DAD0-778DBD050AB5" name="tb_peca_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:51 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730844DE-8CE2-FA2F-89FC-631384F023FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

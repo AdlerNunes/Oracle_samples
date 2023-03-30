@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83BBEA63-CBD0-CF36-26CE-7965F56B66B3" name="tb_fato_exportacao">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:10:34 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="57A3B24E-62CE-C2F4-A148-F4A4D9370C35">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:13 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CIDADE" id="CA0F3ED1-8A3B-C5E7-9A35-E61E4D3C6EDB">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:30 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="334C24AF-C368-65EE-6621-4A17E4B4E7F2" referredColumn="210CF64A-428E-378E-2FCB-46656B456642"/>
+</associations>
+</Column>
+<Column name="ID_PECA" id="54DAD25B-6F2F-1C46-FE05-E324EE364AAD">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:47 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EA8F3B3-E153-EE78-5367-CA1E550C4385" referredColumn="730844DE-8CE2-FA2F-89FC-631384F023FC"/>
+</associations>
+</Column>
+<Column name="ID_DATA" id="C4475D83-0DE5-7F61-C3BF-042662552A55">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:55 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CA5979A-0E74-8694-4C46-80B2FF169E7B" referredColumn="68D20698-2604-C98A-FD56-581AB72EFDE5"/>
+</associations>
+</Column>
+<Column name="ID_PORTO" id="7CD5C82C-D3C0-923F-7C74-9CA81EC34620">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:16:05 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70A85A04-099E-54F8-70D0-BE98AC2559B3" referredColumn="8C234301-B5C2-8A26-0C46-3E4FF81F6B9C"/>
+</associations>
+</Column>
+<Column name="VL_EXPORTACAO" id="2015CF85-7F2B-06C2-B109-E79625B783B3">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:13 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69FA6498-416B-BA2C-ED2A-95CF1EA4BB6C" name="tb_fato_exportacao_PK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:11:13 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A3B24E-62CE-C2F4-A148-F4A4D9370C35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC67EC12-D609-3085-0786-D9D4FF1D7B76" name="tb_fato_exportacao_tb_cidade_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:30 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA0F3ED1-8A3B-C5E7-9A35-E61E4D3C6EDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E27CE64-FC4C-BF55-1CE5-B1E7CE743B12" name="tb_fato_exportacao_tb_peca_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:47 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DAD25B-6F2F-1C46-FE05-E324EE364AAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A901C94-DE71-BCAD-7435-B3A21A291427" name="tb_fato_exportacao_tb_data_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:15:55 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4475D83-0DE5-7F61-C3BF-042662552A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6476A298-8A3C-BCC2-8CF0-A7B7ED43CB20" name="tb_fato_exportacao_tb_porto_FK">
+<createdBy>adler</createdBy>
+<createdTime>2023-03-30 17:16:05 UTC</createdTime>
+<ownerDesignName>Dimensional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CD5C82C-D3C0-923F-7C74-9CA81EC34620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
